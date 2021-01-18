@@ -1,0 +1,44 @@
+.root {
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    height: '100vh';
+}
+.appBar {
+    background: 'none';
+}
+.appBarTitle {
+    flex-grow: '1';
+}
+.appBarWrapper {
+    width: '80%';
+    margin: '0 auto';
+}
+.appHeader {
+    background-repeat: 'no-repeat';
+    background-size: 'cover';
+    background-position: 'center';
+    width: '100vw';
+    height: '100vh';
+}
+.icon {
+    color: '#fff';
+    font-size: '2rem';
+}
+.titleColor {
+    color: '#cc0e74';
+}
+.container {
+    text-align: 'center';
+    border: 'transparent 1px solid';
+    margin-top:'70px';
+}
+.title {
+    color: '#fff';
+    font-size: '4.5rem';
+    border: 'transparent 1px solid';
+}
+.goDown {
+    color: '#cc0e74';
+    font-size: '4rem';
+}
