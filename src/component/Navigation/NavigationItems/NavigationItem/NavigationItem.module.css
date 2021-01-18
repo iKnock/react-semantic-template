@@ -1,16 +1,18 @@
 .NavigationItem {
-    margin    : 10px 0;
-    box-sizing: border-box;
-    display   : block;
-    width     : 100%;
+    margin     : 10px 0;
+    box-sizing : border-box;
+    display    : block;
+    width      : 100%;
+    align-items: flex-end;
 }
 
 .NavigationItem a {
-    color          : #8F5C2C;
+    color          : #52483f;
     text-decoration: none;
     width          : 100%;
     box-sizing     : border-box;
     display        : block;
+    align-items    : flex-end;
 }
 
 .NavigationItem a:hover,
@@ -29,10 +31,10 @@
     }
 
     .NavigationItem a {
-        color          : white;
-        height         : 100%;
-        padding        : 16px 10px;
-        border-bottom  : 4px solid transparent;
+        color        : white;
+        height       : 100%;
+        padding      : 16px 10px;
+        border-bottom: 4px solid transparent;
     }
 
     .NavigationItem a:hover,

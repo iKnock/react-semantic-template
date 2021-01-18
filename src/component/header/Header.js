@@ -1,18 +1,26 @@
 import React, { useEffect, useState } from 'react';
-import classes from './Header.module.css'
+import { Button, Container, Menu, Segment, Image } from "semantic-ui-react";
 
 const Header = () => {
     return (
-        <div className={classes.root}>            
+        <div>
+            <Menu inverted>
+                <Container>
+                    <Menu.Item as="a" header>
+                        Enat Care
+                    </Menu.Item>
 
-            <div className={classes.appBar} elevation={0}>
-                <div className={classes.appBarWrapper}>
-                    <h1 className={classes.appBarTitle}>
-                        Enat <span className={classes.titleColor}>Care</span>
-                    </h1>
-                    
-                </div>
-            </div>
+                    <Menu.Menu position="right">
+                        <Menu.Item as="a" name="login">
+                            Login
+                    </Menu.Item>
+
+                        <Menu.Item as="a" name="register">
+                            Register
+                     </Menu.Item>
+                    </Menu.Menu>
+                </Container>
+            </Menu>
         </div>
     );
 }
